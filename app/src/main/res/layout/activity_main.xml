@@ -48,11 +48,12 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="15dp"
         android:text="Calculate"
         app:layout_constraintLeft_toLeftOf="@+id/editTextFinalWeight"
         app:layout_constraintRight_toRightOf="@+id/editTextFinalWeight"
-        app:layout_constraintTop_toBottomOf="@+id/editTextFinalWeight"/>
+        app:layout_constraintTop_toBottomOf="@+id/editTextFinalWeight"
+        app:layout_constraintHorizontal_bias="0.473"/>
 
     <TextView
         android:id="@+id/tvCurrent"
@@ -120,14 +121,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="6dp"
-        android:text="TextView"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/buttonCalc"
-        app:layout_constraintHorizontal_bias="0.504"/>
+        tools:text="100%"/>
 </android.support.constraint.ConstraintLayout>
